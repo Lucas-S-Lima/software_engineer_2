@@ -56,14 +56,14 @@ O sistema deve redirecionar o usuário à página home assim que o usuário aces
 
 ### Critérios de qualidade (Não-funcionais):
 
-Performance: A listagem inicial deve ser carregada em até 2 segundos após acessar a URL.
-Usabilidade: A página inicial deve ser responsiva, adaptando-se a diferentes tamanhos de tela.
-Confiabilidade: O sistema deve garantir que os itens exibidos sejam atualizados em tempo real.
+- Performance: A listagem inicial deve ser carregada em até 2 segundos após acessar a URL.
+- Usabilidade: A página inicial deve ser responsiva, adaptando-se a diferentes tamanhos de tela.
+- Confiabilidade: O sistema deve garantir que os itens exibidos sejam atualizados em tempo real.
 
 ### Rastreabilidade:
-Origem: Solicitação do cliente (HU-01). 
-Dependência: RF-003 (Cadastro de novos itens). 
-Casos de Teste: CT-001 (Carregar listagem).
+- Origem: Solicitação do cliente (HU-01). 
+- Dependência: RF-003 (Cadastro de novos itens). 
+- Casos de Teste: CT-001 (Carregar listagem).
 
 ### Priorização: Must Have
 Justificativa: Sem a listagem de itens na página inicial, o usuário não terá acesso ao estoque, tornando o sistema inviável.
@@ -92,9 +92,9 @@ Ao clicar sobre o card com imagem dos itens na listagem, o usuário é redirecio
 - Disponibilidade: O sistema deve estar acessível 99,5% do tempo em horário comercial.
 
 ### Rastreabilidade:
-Origem: Solicitação do cliente (HU-02).
-Dependência: RF-001 (Listagem).
-Casos de Teste: CT-002 (Acessar detalhes).
+- Origem: Solicitação do cliente (HU-02).
+- Dependência: RF-001 (Listagem).
+- Casos de Teste: CT-002 (Acessar detalhes).
 
 ### Priorização: Must Have
 Justificativa: Essencial para que o cliente visualize informações detalhadas antes de decidir pela compra.
@@ -128,9 +128,9 @@ O sistema deve permitir que o usuário com cadastro e o usuário com permissão 
 
 ### Rastreabilidade:
 
-Origem: Solicitação do administrador (HU-03).
-Dependência: RF-008 (Login e Senha).
-Casos de Teste: CT-003 (Cadastro válido), CT-004 (Cadastro inválido).
+- Origem: Solicitação do administrador (HU-03).
+- Dependência: RF-008 (Login e Senha).
+- Casos de Teste: CT-003 (Cadastro válido), CT-004 (Cadastro inválido).
 
 ### Priorização:
 Justificativa: Fundamental para manter o estoque atualizado e disponível para visualização.
@@ -157,15 +157,15 @@ O sistema deve permitir que o usuário com cadastro possa editar os itens cadast
 
 ### Critérios de qualidade (Não-funcionais):
 
-Segurança: Somente usuários logados ou administradores poderão editar itens.
-Performance: A edição deve ser concluída em até 3 segundos.
-Usabilidade: O formulário de edição deve carregar os dados já cadastrados corretamente.
+- Segurança: Somente usuários logados ou administradores poderão editar itens.
+- Performance: A edição deve ser concluída em até 3 segundos.
+- Usabilidade: O formulário de edição deve carregar os dados já cadastrados corretamente.
 
 ### Rastreabilidade:
 
-Origem: Solicitação do usuário (HU-04).
-Dependência: RF-003 (Cadastro de itens).
-Casos de Teste: CT-005 (Edição válida), CT-006 (Edição inválida).
+- Origem: Solicitação do usuário (HU-04).
+- Dependência: RF-003 (Cadastro de itens).
+- Casos de Teste: CT-005 (Edição válida), CT-006 (Edição inválida).
 
 ### Priorização: Should Have
 Justificativa: Importante para manter informações atualizadas, mas o sistema pode funcionar inicialmente apenas com cadastro e listagem.
@@ -193,15 +193,15 @@ Um item excluído não deve mais aparecer na listagem pública.
 
 ### Critérios de qualidade (Não-funcionais):
 
-Segurança: Apenas usuários logados ou administradores poderão excluir itens.
-Usabilidade: A confirmação de exclusão deve ser clara e evitar exclusões acidentais.
-Confiabilidade: O sistema deve registrar o histórico de exclusões para auditoria.
+- Segurança: Apenas usuários logados ou administradores poderão excluir itens.
+- Usabilidade: A confirmação de exclusão deve ser clara e evitar exclusões acidentais.
+- Confiabilidade: O sistema deve registrar o histórico de exclusões para auditoria.
 
 ### Rastreabilidade:
 
-Origem: Solicitação do usuário (HU-05).
-Dependência: RF-003 (Cadastro de itens).
-Casos de Teste: CT-007 (Exclusão confirmada), CT-008 (Exclusão cancelada).
+- Origem: Solicitação do usuário (HU-05).
+- Dependência: RF-003 (Cadastro de itens).
+- Casos de Teste: CT-007 (Exclusão confirmada), CT-008 (Exclusão cancelada).
 
 ### Priorização: Should Have
 Justificativa: Necessário para controle do estoque, mas pode ser implementado após cadastro e listagem.
@@ -225,15 +225,15 @@ Ao clicar no campo de busca no topo da página home , deverá ser selecionado, e
 
 ### Critérios de qualidade (Não-funcionais):
 
-Performance: A busca deve retornar os resultados em até 2 segundos.
-Usabilidade: Deve permitir filtros como modelo, ano, marca e quilometragem.
-Confiabilidade: Os resultados exibidos devem corresponder exatamente à palavra-chave digitada.
+- Performance: A busca deve retornar os resultados em até 2 segundos.
+- Usabilidade: Deve permitir filtros como modelo, ano, marca e quilometragem.
+- Confiabilidade: Os resultados exibidos devem corresponder exatamente à palavra-chave digitada.
 
 ### Rastreabilidade:
 
-Origem: Solicitação do cliente (HU-06).
-Dependência: RF-001 (Listagem).
-Casos de Teste: CT-009 (Busca com resultados), CT-010 (Busca sem resultados).
+- Origem: Solicitação do cliente (HU-06).
+- Dependência: RF-001 (Listagem).
+- Casos de Teste: CT-009 (Busca com resultados), CT-010 (Busca sem resultados).
 
 **Priorização:** Must Have
 Justificativa: A busca melhora a experiência do usuário e facilita encontrar veículos específicos no estoque.
@@ -258,9 +258,9 @@ O usuário que não estiver no grupo com as permissões de administrador do sist
 
 ### Critérios de qualidade (Não-funcionais):
 
-Segurança: Usuários sem permissão não podem acessar cadastro, edição ou exclusão.
-Usabilidade: A interface deve indicar claramente quais funcionalidades estão disponíveis para cada tipo de usuário.
-Disponibilidade: O acesso aos serviços deve estar disponível 99,5% do tempo em horário comercial.
+- Segurança: Usuários sem permissão não podem acessar cadastro, edição ou exclusão.
+- Usabilidade: A interface deve indicar claramente quais funcionalidades estão disponíveis para cada tipo de usuário.
+- Disponibilidade: O acesso aos serviços deve estar disponível 99,5% do tempo em horário comercial.
 
 ### Rastreabilidade:
 
@@ -294,15 +294,15 @@ O usuário poderá ter acesso ao sistema com login e senha caso seja cadastrado 
 
 ### Critérios de qualidade (Não-funcionais):
 
-Segurança: O sistema deve criptografar senhas e proteger dados sensíveis conforme a LGPD.
-Usabilidade: O formulário de login/cadastro deve ser simples e intuitivo.
-Performance: O login deve ser processado em até 3 segundos.
+- Segurança: O sistema deve criptografar senhas e proteger dados sensíveis conforme a LGPD.
+- Usabilidade: O formulário de login/cadastro deve ser simples e intuitivo.
+- Performance: O login deve ser processado em até 3 segundos.
 
 ### Rastreabilidade:
 
-Origem: Solicitação de segurança (HU-08).
-Dependência: Nenhuma.
-Casos de Teste: CT-013 (Login válido), CT-014 (Login inválido).
+- Origem: Solicitação de segurança (HU-08).
+- Dependência: Nenhuma.
+- Casos de Teste: CT-013 (Login válido), CT-014 (Login inválido).
 
 ### Priorização: Must Have
 Justificativa: Essencial para controle de permissões e segurança no sistema.
@@ -324,9 +324,9 @@ O sistema deve garantir tempos de resposta adequados para manter a fluidez da na
 - O campo de busca deve retornar resultados em até 2 segundos.Tempo de login não deve ultrapassar 3 segundos.
 
 ### Rastreabilidade:
-Origem: Expectativa do cliente (NFR-01). 
-Afeta: RF-001, RF-002, RF-003, RF-006 e RF-008. 
-Casos de Teste: CT-015 (Testes de carga)
+- Origem: Expectativa do cliente (NFR-01). 
+- Afeta: RF-001, RF-002, RF-003, RF-006 e RF-008. 
+- Casos de Teste: CT-015 (Testes de carga)
 
 ### Priorização: Must Have
 Must Have (fundamental para boa experiência do usuário).
@@ -339,7 +339,7 @@ Testes de desempenho medindo tempos de resposta com ferramentas de “stress tes
 Descrição:
 O sistema deve ser simples e intuitivo para todos os tipos de usuários (clientes, vendedores e administradores).
  
-Critérios de Qualidade:
+### Critérios de Qualidade:
 
 - Interface em português brasileiro com terminologia acessível.
 - Operações principais (listagem e busca) acessíveis em até 2 cliques.
@@ -347,9 +347,9 @@ Critérios de Qualidade:
 - Design responsivo, compatível com desktop, tablet e celular.
 
 ### Rastreabilidade:
-Origem: Expectativa do cliente (NFR-02). 
-Afeta: Todos os RFs. 
-Casos de Teste: CT-016 (Testes de interface).
+- Origem: Expectativa do cliente (NFR-02). 
+- Afeta: Todos os RFs. 
+- Casos de Teste: CT-016 (Testes de interface).
 
 ### Priorização: Must Have
 Essencial para adoção do sistema.
@@ -362,7 +362,7 @@ Avaliação com usuários reais (testes de usabilidade) e validação de acessib
 Descrição:
 O sistema deve proteger os dados dos usuários e controlar permissões de acordo com perfis de acesso.
  
-Critérios de Qualidade:
+### Critérios de Qualidade:
 
 - Senhas armazenadas com criptografia segura (ex.: bcrypt).
 - Autenticação obrigatória para cadastro, edição e exclusão de itens.
@@ -370,9 +370,9 @@ Critérios de Qualidade:
 - Conformidade com a LGPD no tratamento de dados pessoais.
 
 ### Rastreabilidade:
-Origem: Regras de negócio (NFR-03). 
-Afeta: RF-003, RF-004, RF-005, RF-007, RF-008. 
-Casos de Teste: CT-017 (Login seguro), CT-018 (Permissões incorretas).
+- Origem: Regras de negócio (NFR-03). 
+- Afeta: RF-003, RF-004, RF-005, RF-007, RF-008. 
+- Casos de Teste: CT-017 (Login seguro), CT-018 (Permissões incorretas).
 
 ### Priorização: Must Have
 Indispensável para confiabilidade e proteção.
@@ -385,7 +385,7 @@ Testes de autenticação, criptografia de senha e simulação de acessos não au
 Descrição:
 O sistema deve estar disponível de forma contínua, evitando falhas e indisponibilidades.
  
-Critérios de Qualidade:
+### Critérios de Qualidade:
 
 - Disponibilidade mínima de 99,5% em horário comercial.
 - Em caso de falha, o sistema deve se recuperar em até 5 minutos.
@@ -393,9 +393,9 @@ Critérios de Qualidade:
 - Logs de erros e atividades críticas registrados para auditoria.
 
 ### Rastreabilidade:
-Origem: Expectativa da gerência (NFR-04). 
-Afeta: Todos os RFs. 
-Casos de Teste: CT-019 (Disponibilidade em carga).
+- Origem: Expectativa da gerência (NFR-04). 
+- Afeta: Todos os RFs. 
+- Casos de Teste: CT-019 (Disponibilidade em carga).
 
 ### Priorização: Should Have
 Importante para a confiança do cliente.
@@ -408,7 +408,7 @@ Testes de falha simulada e recuperação, verificação de logs e tempo de uptim
 Descrição:
 O sistema deve permitir manutenção fácil e suportar crescimento de dados e usuários.
 
-Critérios de Qualidade:
+### Critérios de Qualidade:
 
 - Código documentado seguindo boas práticas (ex.: Clean Code).
 - Banco de dados deve suportar até 100.000 registros de veículos sem degradação de desempenho.
@@ -416,9 +416,9 @@ Critérios de Qualidade:
 - Logs de manutenção disponíveis para equipe técnica.
 
 ### Rastreabilidade:
-Origem: Expectativa da equipe técnica (NFR-05). 
-Afeta: Estrutura geral do sistema. 
-Casos de Teste: CT-021 (Carga de dados), CT-022 (Expansão do sistema).
+- Origem: Expectativa da equipe técnica (NFR-05). 
+- Afeta: Estrutura geral do sistema. 
+- Casos de Teste: CT-021 (Carga de dados), CT-022 (Expansão do sistema).
 
 ### Priorização: Could Have
 Não é crítico no início, mas importante a médio prazo.
