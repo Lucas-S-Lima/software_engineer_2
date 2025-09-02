@@ -87,9 +87,9 @@ Ao clicar sobre o card com imagem dos itens na listagem, o usuário é redirecio
 
 ### Critérios de qualidade (Não-funcionais):
 
-Performance: A transição da listagem para a página de detalhes deve ocorrer em até 2 segundos.
-Usabilidade: A página de detalhes deve ser clara e organizada, exibindo informações completas do veículo.
-Disponibilidade: O sistema deve estar acessível 99,5% do tempo em horário comercial.
+- Performance: A transição da listagem para a página de detalhes deve ocorrer em até 2 segundos.
+- Usabilidade: A página de detalhes deve ser clara e organizada, exibindo informações completas do veículo.
+- Disponibilidade: O sistema deve estar acessível 99,5% do tempo em horário comercial.
 
 ### Rastreabilidade:
 Origem: Solicitação do cliente (HU-02).
@@ -122,9 +122,9 @@ O sistema deve permitir que o usuário com cadastro e o usuário com permissão 
 
 ### Critérios de qualidade (Não-funcionais):
 
-Segurança: Apenas usuários logados ou administradores poderão cadastrar itens.
-Performance: O cadastro deve ser processado em até 3 segundos.
-Usabilidade: O formulário deve validar os dados obrigatórios antes do envio.
+- Segurança: Apenas usuários logados ou administradores poderão cadastrar itens.
+- Performance: O cadastro deve ser processado em até 3 segundos.
+- Usabilidade: O formulário deve validar os dados obrigatórios antes do envio.
 
 ### Rastreabilidade:
 
