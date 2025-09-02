@@ -77,7 +77,7 @@ Descrição:
 O sistema deve permitir que o usuário possa ver todas as informações disponíveis sobre um determinado veículo em uma página de detalhes, para cada veículo.
 
 ### Critério de aceitação:
-Ao clicar sobre o card com imagem dos itens na listagem, o usuário é redirecionado a uma outra página onde serão listadas todas as demais informações referentes ao produto.**
+Ao clicar sobre o card com imagem dos itens na listagem, o usuário é redirecionado a uma outra página onde serão listadas todas as demais informações referentes ao produto.
 
 ### Critério de aceitabilidade:
 
